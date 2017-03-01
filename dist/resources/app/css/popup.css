@@ -1,0 +1,42 @@
+.left {
+    position: relative;
+    top: -36px;
+    left: 80px;
+    width: 250px;
+}
+
+#ok {
+    position: relative;
+    top: 30px;
+    right: 220px;
+    width: 70px;
+}
+
+.right {
+    position: relative;
+    top: -36px;
+    left: 100px;
+    width: 120px;
+}
+
+#cancel {
+    position: relative;
+    top: 30px;
+    right: 90px;
+    width: 70px;
+}
+
+#areaPosition {
+    background-color: lightblue;
+    display: none;
+    position: relative;
+    left: 90px;
+}
+
+#videoPlayer {
+    display: none;
+}
+
+#ytPlayerPopUp {
+    display: none;
+}

@@ -1,0 +1,157 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.videoContainer {
+    position: relative;
+    top: 42px;
+    left: 385px;
+    width: 884px;
+    height: 611px;
+}
+
+video {
+    width: 884px;
+    height: 611px;
+    position: relative;
+    top: -57px;
+}
+
+#ytPlayer {
+    width: 884px;
+    height: 540px;
+    position: relative;
+    display: none;
+}
+
+.divCaptions {
+    position: absolute;
+    top: 50px;
+    width: 400px;
+    height: 404px;
+}
+
+.selectCaptions {
+    width: 350px;
+    height: 364px;
+}
+
+.textArea {
+    position: relative;
+    top: -40px;
+}
+
+option {
+ width: 350px;
+ height: 40px;
+ margin-bottom: 2px;
+ background-color: #E6E0EC;
+ border: 2px groove;
+ padding: 10px;
+}
+
+#titleType {
+    width: 85px;
+    height: 20px;
+    border: groove 2px;
+    background-color: #fff000;
+    margin-right: 25px;
+    position: relative;
+}
+
+#titleText {
+    display: inline;
+}
+
+#content {
+    width: 500px;
+}
+
+#href {
+    width: 500px;
+}
+
+.size {
+    display: none;
+}
+
+.ui-selectmenu-menu {
+    display: block !important;
+    top: 25px !important;
+    left: 700px !important;
+}
+
+#select-menu {
+    height: 367px !important;
+    width: 400px !important;
+}
+
+.ui-state-active {
+    background: #2FC0FF !important
+}
+
+td:nth-child(1) {
+    border: groove 2px;
+    position: relative;
+    width: 300px;
+}
+
+td:nth-child(2) {
+    border: groove 2px;
+    position: relative;
+    width: 850px;
+}
+
+td:nth-child(3) {
+    border: groove;
+    position: relative;
+    width: 130px;
+}
+
+tr:nth-child(1) {
+    background-color: gray !important;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #F0F0F0;
+}
+
+#btnUpdate {
+    width: 130px;
+}
+
+#toolbar {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    padding: 5px 10px; /* some styling, please note overall height of the object will be 35px due to 5px padding on top/bottom. */
+    background: transparent; /* some styling */
+    border-bottom: 1px solid #333; /* some styling */
+}
+
+#btnToolBar {
+    width: 30px;
+    height: 30px;
+}
+
+.Red {
+    color: red;
+}
+
+#pos {
+    width: 884px;
+    height: 540px;
+    background-color: lightblue;
+    position: relative;
+    display: none;
+    top: -611px;
+}

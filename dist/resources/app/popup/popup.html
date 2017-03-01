@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Cue Popup</title>
+        <link type="text/css" href="../css/popup.css" rel="stylesheet">
+        <script type="text/javascript" src="../javascript/jquery-1.8.2.js"></script>
+        <script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
+        <script type="text/javascript" src="../javascript/utilities.js"></script>
+        <script type="text/javascript" src="popup.js"></script>
+    </head>
+    <body onload="init()">
+        <div id="divId" style="display:none;"></div>
+
+        <p>Start: </p>
+        <input class="left" id="startTime" name="startTime" value="00:00:00.000"/>
+        <button class="right" id="getSTime" onclick="getVideoClick('start')">Get Start Time</button>
+        <p>End: </p>
+        <input class="left" id="endTime" name="endTime" value="00:00:00.000"/>
+        <button class="right" id="getETime" onclick="getVideoClick('end')">Get End Time</button>
+
+        <video src="" id="videoPlayer" controls></video>
+        <div id="ytPlayerPopUp"></div>
+        <p>Type: </p>
+        <select class="left" id="typeCue">
+            <option value="video">Video</option>
+            <option value="audio">Audio</option>
+            <option value="text">Text</option>
+            <option value="image">Image</option>
+        </select>
+        <p>Position: </p>
+        <input class="left" id="position" name="position" value="100,100"/>
+        <button class="right" onclick="showGetPosition()">Get Pos Mouse</button>
+        <div id="areaPosition"></div>
+        <p>Size: </p>
+        <input class="left" id="size" name="size" value="50,50"/>
+        <p>Content: </p>
+        <input class="left" id="content" name="content" value="this is text"/>
+        <p>Href: </p>
+        <input class="left" id="href" name="href" value="10"/>
+        <p>CssClass: </p>
+        <input class="left" id="cssClass" name="cssClass" value="Red"/>
+
+        <button id="ok" onclick="getData()">OK</button>
+        <button id="cancel" onclick="cancel()">Cancel</button>
+    </body>
+</html>

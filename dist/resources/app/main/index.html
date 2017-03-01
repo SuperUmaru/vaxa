@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video AXA Player</title>
+    <link type="text/css" href="../css/vtt.css" rel="stylesheet">
+    
+    <script type="text/javascript" src="../javascript/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="../javascript/vtt.js"></script>
+    <script type="text/javascript" src="../javascript/process-all.js"></script>
+    <script type="text/javascript" src="../javascript/utilities.js"></script>
+    <script type="text/javascript" src="../javascript/youtube.js"></script>
+    <script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
+    <script type="text/javascript" src="../common/menu.js"></script>
+
+</head>
+<body onload="init()">
+    <div id="toolbar">
+        <input id="btnToolBar" onclick="newClick()" type="image" src="../images/new.png" alt="New">
+        <input id="btnToolBar" onclick="openClick()" type="image" src="../images/open.png" alt="Open">
+        <input id="btnToolBar" onclick="youtubeClick()" type="image" src="../images/youtube.png" alt="Youtube">
+        <input id="btnToolBar" onclick="saveClick()" type="image" src="../images/save.png" alt="Save">
+        <input id="btnToolBar" onclick="deleteClick()" type="image" src="../images/delete.png" alt="Delete">
+        <input id="btnToolBar" onclick="aboutClick()" type="image" src="../images/about.png" alt="About">
+
+        <input id="btnToolBar" onclick="switchClick()" type="image" src="../images/switch.png" alt="Switch">
+    </div>
+    <div class="videoContainer">
+        <video id="videoPlayer" class="video-js vjs-default-skin" autoplay controls preload="none" width="640" height="264">
+          <source src="" type='video/mp4' />
+          <track kind="captions" id="caption" src="" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+        </video>
+        <div id="ytPlayer"></div>
+        <div id="pos"></div>
+    </div>
+    
+    <div class="divCaptions">
+        <select name="caption" id="select" class="selectCaptions" multiple>
+        </select>
+    </div>
+    </br>
+
+    <div class="textArea">
+        <table id="cueListTable">
+            <tr>
+                <td class="left">
+                    Property
+                </td>
+                <td class="right">
+                    Value
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+

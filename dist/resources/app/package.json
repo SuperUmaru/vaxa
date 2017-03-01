@@ -1,0 +1,30 @@
+{
+  "name": "video-axa",
+  "version": "1.0.0",
+  "description": "Video AXA Player",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ./main.js"
+  },
+  "repository": {
+    "type": "svn",
+    "url": "https://redmine.etc.net.vn:8443/svn/WMS"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "THL Software",
+  "license": "THL",
+  "bugs": {
+    "url": "http://redmine.etc.net.vn"
+  },
+  "homepage": "https://github.com/atom/electron-quick-start#readme",
+  "devDependencies": {
+    "debug-menu": "^0.2.0",
+    "electron-debug": "^0.5.1",
+    "electron-prebuilt": "^0.36.0"
+  }
+}

@@ -1,0 +1,79 @@
+Video Annotation1
+00:00:10.100 --> 00:00:15.100
+{
+text: {
+position : {
+x: 40,
+y: 40,
+},
+content : this is text
+css : Red
+},
+
+2
+00:00:25.100 --> 00:00:35.100
+{
+image: {
+position : {
+x: 20,
+y: 20,
+width: 200,
+height: 200,
+},
+content : https://upload.wikimedia.org/wikipedia/commons/d/d3/Newtons_cradle_animation_book_2.gif
+css : Red
+href : https://gist.github.com/gkatsev/a32561a1691354f327b8
+},
+
+3
+00:00:40.100 --> 00:00:50.100
+{
+audio: {
+content : http://www.noiseaddicts.com/samples_1w72b820/277.mp3
+css : Red
+},
+text: {
+position : {
+x:50,
+y:50,
+},
+content : http://www.noiseaddicts.com/samples_1w72b820/277.mp3
+css : Blue
+},
+
+4
+00:00:55.100 --> 00:01:10.100
+{
+video: {
+position : {
+x: 200,
+y: 50,
+width: 100,
+height: 100,
+},
+content : http://techslides.com/demos/sample-videos/small.mp4
+css : Red
+},
+
+5
+00:02:00.100 --> 00:02:15.100
+{
+image: {
+position : {
+x: 50,
+y: 50,
+width: 100,
+height: 100,
+},
+content : https://upload.wikimedia.org/wikipedia/commons/a/aa/SmallFullColourGIF.gif
+css : Blue
+href : https://github.com/mozilla/vtt.js
+},
+text: {
+position : {
+x: 55,
+y: 55,
+},
+content : this is text
+css : Blue
+},
